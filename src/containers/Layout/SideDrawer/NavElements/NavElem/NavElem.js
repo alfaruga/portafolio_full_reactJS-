@@ -1,4 +1,10 @@
 import React from 'react';
-const navElem=(props)=>(
-    <li><a></a></li>
+import { NavLink } from 'react-router-dom';
+
+const navElem = (props) => (
+    <NavLink to={{
+        pathname: props.link
+    }}>{props.link}</NavLink>
 )
+
+export default navElem;
