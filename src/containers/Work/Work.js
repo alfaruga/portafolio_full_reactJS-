@@ -30,6 +30,7 @@ class Work extends Component {
             workList = Object.keys(this.state.works).map((elem, index) => {
                 return (<WorkEntry
                     key={index}
+                    imageRef={index}
                     name={elem}
                     github={this.state.works[elem]['github']}
                     link={this.state.works[elem]['link']}
