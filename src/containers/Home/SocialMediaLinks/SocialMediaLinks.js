@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from '../../../axios';
 import SocialMediaLink from '../SocialMediaLinks/SocialMediaLink/SocialMediaLink';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import classes from './SocialMediaLinks.module.css';
 
 class SocialMediaLinks extends Component {
     state = {

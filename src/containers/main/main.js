@@ -19,10 +19,13 @@ class Main extends Component {
                     </nav>
                 </main>
                 <Switch>
+                    <Route path='/' exact component={Home} />
                     <Route path='/Home' exact component={Home} />
                     <Route path='/My Work' exact component={Work} />
                     <Route path='/About me' exact component={About} />
                     <Route path='/Contact me' exact component={Contact} />
+                    <Route render={() => <h1>Not found</h1>} />
+
                 </Switch>
             </div>
         )

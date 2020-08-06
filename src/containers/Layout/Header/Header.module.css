@@ -1,6 +1,12 @@
-.Header h1 {
+.Header {
+  text-align: center;
 }
 
-.Header h2 {
+.Header h1 {
+  color: #eece1a;
+  font-family: "Libre Baskerville";
+}
+
+.Header h3 {
   font-family: "Montserrat", sans-serif;
 }

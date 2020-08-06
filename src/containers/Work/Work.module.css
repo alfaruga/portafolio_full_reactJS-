@@ -1,0 +1,32 @@
+.Work {
+  display: flex;
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Work button {
+  align-self: center;
+  border-radius: 0;
+  border: 2px solid #e7e7e7;
+  font-size: 1.3rem;
+  background-color: black;
+  color: white;
+  padding: 15px 5px;
+  box-shadow: none;
+}
+.Work button:hover {
+  color: black;
+  border-color: black;
+  background-color: #e7e7e7;
+}
+.ProjectShowcase {
+  background-color: #f3f3f3;
+  margin-bottom: 20px;
+  height: 400px;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

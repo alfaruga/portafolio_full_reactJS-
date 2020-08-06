@@ -1,7 +1,8 @@
 import React from 'react';
+import classes from './WorkLink.module.css';
 
 const workLink = (props) => (
-    <a href={props.address}>{props.name}</a>
+    <a className={classes.Link} href={props.address}>{props.name}</a>
 )
 
 export default workLink;
