@@ -10,7 +10,7 @@ class Home extends Component {
             <Aux><div className={classes.Home}>
                 <h1>Alexis Fabian Ruiz García</h1>
                 <h3>Computer science undergraduate student, programming enthusiast</h3>
-                <SocialMediaLinks />
+                <div><SocialMediaLinks /></div>
             </div>
             </Aux>)
     }

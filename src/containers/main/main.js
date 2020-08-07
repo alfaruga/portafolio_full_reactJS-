@@ -4,7 +4,8 @@ import Home from '../Home/Home';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import NavElements from '../Layout/SideDrawer/NavElements/NavElements';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
+import classes from './main.module.css';
 
 class Main extends Component {
     state = {
@@ -14,19 +15,19 @@ class Main extends Component {
         return (
             <div>
                 <main>
-                    <nav>
-                        <NavElements />
-                    </nav>
+                    <NavElements />
+                    <div className={classes.Main}>
+                        <Switch>
+                            <Route path='/Home' exact component={Home} />
+                            <Route path='/My_Work' exact component={Work} />
+                            <Route path='/About_me' exact component={About} />
+                            <Route path='/Contact_me' exact component={Contact} />
+                            <Redirect from='/' exact to='/Home' />
+                            <Route render={() => <h1>Not found</h1>} />
+                        </Switch>
+                    </div>
                 </main>
-                <Switch>
-                    <Route path='/' exact component={Home} />
-                    <Route path='/Home' exact component={Home} />
-                    <Route path='/My Work' exact component={Work} />
-                    <Route path='/About me' exact component={About} />
-                    <Route path='/Contact me' exact component={Contact} />
-                    <Route render={() => <h1>Not found</h1>} />
 
-                </Switch>
             </div>
         )
     }

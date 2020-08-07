@@ -1,0 +1,14 @@
+.Navlink {
+  padding: 5px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.Navlink:hover {
+  color: #eece1a;
+  font-weight: bold;
+}
+.selected {
+  color: #eece1a;
+  font-weight: bold;
+}

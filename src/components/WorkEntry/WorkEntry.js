@@ -6,11 +6,13 @@ import WorkLink from './WorkLink/WorkLink';
 import WorkImage from './WorkImage/WorkImage';
 import { Calculator, DrumKit, Library, Product, Tictactoe } from '../../assets/images/index'
 
-const workEntry = (props) => {
+const WorkEntry = (props) => {
     let imagesArr = [Calculator, DrumKit, Library, Product, Tictactoe];
+
+
     return (
         < Aux >
-            <div className={classes.Container}>
+            <div className={[classes.Container, classes.fade].join(' ')}>
                 <WorkImage alt={props.name} src={imagesArr[props.imageRef]} />
                 <div className={classes.Description}>
                     <p>{props.name}</p><br></br>
@@ -28,4 +30,4 @@ const workEntry = (props) => {
         </Aux >)
 }
 
-export default workEntry;
+export default WorkEntry;

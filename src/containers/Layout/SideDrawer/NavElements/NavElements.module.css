@@ -1,0 +1,16 @@
+.NavElements {
+  position: relative;
+  top: 15px;
+  left: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.NavElements ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}

@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .Description {
   color: black;
   font-family: "Montserrat", serif;
@@ -34,4 +35,28 @@
 .Description p {
   padding: 0;
   margin: 0;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }

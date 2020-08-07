@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import NavElem from './NavElem/NavElem';
-
+import classes from './NavElements.module.css'
+import { withRouter } from 'react-router-dom';
 class NavElements extends Component {
     state = {
-        pages: ['Home', 'About me', 'My work', 'Contact me']
+        pages: ['Home', 'About_me', 'My_work', 'Contact_me']
     }
 
     render() {
@@ -13,11 +14,14 @@ class NavElements extends Component {
                 link={page} />)
         })
 
-        return (<nav>
-            <ul>{navLinks}</ul>
-        </nav>
+        return (
+            <div className={classes.NavElements}>
+                <nav >
+                    <ul>{navLinks}</ul>
+                </nav>
+            </div>
         )
     }
 }
 
-export default NavElements;
+export default withRouter(NavElements);

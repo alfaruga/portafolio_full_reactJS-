@@ -40,7 +40,7 @@ class SocialMediaLinks extends Component {
                     return (<SocialMediaLink
                         key={'sm' + index}
                         link={this.state.socialMediaLinks[element]}>
-                        <FontAwesomeIcon icon={[this.state.fontAwesomeCodes[element].split(',')[0], this.state.fontAwesomeCodes[element].split(',')[1]]} />
+                        <FontAwesomeIcon className={classes.Icon} icon={[this.state.fontAwesomeCodes[element].split(',')[0], this.state.fontAwesomeCodes[element].split(',')[1]]} />
                     </SocialMediaLink>)
                 })
         }
