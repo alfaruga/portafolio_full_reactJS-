@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Aux from '../../hoc/Aux';
 import WorkLink from './WorkLink/WorkLink';
 import WorkImage from './WorkImage/WorkImage';
-import { Calculator, DrumKit, Library, Product, Tictactoe } from '../../assets/images/index'
+import { Calculator, DrumKit, Library, Product, Tictactoe } from '../../assets/images/index';
 
 const WorkEntry = (props) => {
     let imagesArr = [Calculator, DrumKit, Library, Product, Tictactoe];

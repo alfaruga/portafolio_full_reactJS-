@@ -1,0 +1,17 @@
+.About {
+  resize: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.Image {
+  display: inline-block;
+  height: 100%;
+}
+.Info {
+  background-color: #141414a6;
+  resize: none;
+  width: 40%;
+  margin: 5px;
+  border-radius: 15px;
+}

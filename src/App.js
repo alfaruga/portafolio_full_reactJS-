@@ -9,9 +9,7 @@ function App() {
   library.add(fab, fas)
   return (
     <BrowserRouter>
-      <div className="App">
-        <Layout />
-      </div>
+      <Layout />
     </BrowserRouter>
   );
 }

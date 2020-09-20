@@ -15,11 +15,9 @@ class NavElements extends Component {
         })
 
         return (
-            <div className={classes.NavElements}>
-                <nav >
-                    <ul>{navLinks}</ul>
-                </nav>
-            </div>
+            <nav className={classes.NavElements}>
+                <ul>{navLinks}</ul>
+            </nav>
         )
     }
 }
