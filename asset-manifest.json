@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba634f85.chunk.css",
-    "main.js": "/static/js/main.ee41eebb.chunk.js",
-    "main.js.map": "/static/js/main.ee41eebb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.b8adb121.chunk.js": "/static/js/2.b8adb121.chunk.js",
-    "static/js/2.b8adb121.chunk.js.map": "/static/js/2.b8adb121.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.46601094687cdcef072b7319dcdf7d82.js": "/precache-manifest.46601094687cdcef072b7319dcdf7d82.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.ba634f85.chunk.css.map": "/static/css/main.ba634f85.chunk.css.map",
-    "static/js/2.b8adb121.chunk.js.LICENSE.txt": "/static/js/2.b8adb121.chunk.js.LICENSE.txt",
-    "static/media/Calculator.png": "/static/media/Calculator.ac533139.png",
-    "static/media/DrumKit.png": "/static/media/DrumKit.ef6ca9b9.png",
-    "static/media/Library.png": "/static/media/Library.a829907b.png",
-    "static/media/Product landing page.png": "/static/media/Product landing page.7d1cf2fb.png",
-    "static/media/Tic tac toe.png": "/static/media/Tic tac toe.ff3b401d.png",
-    "static/media/Home.module.css": "/static/media/background.39dc1ccf.jpeg",
-    "static/media/fotoDePerfil.jpg": "/static/media/fotoDePerfil.81a75869.jpg"
+    "main.css": "/portafolio_full_reactJS-/static/css/main.6217b51f.chunk.css",
+    "main.js": "/portafolio_full_reactJS-/static/js/main.cda4cf28.chunk.js",
+    "main.js.map": "/portafolio_full_reactJS-/static/js/main.cda4cf28.chunk.js.map",
+    "runtime-main.js": "/portafolio_full_reactJS-/static/js/runtime-main.fd54fe81.js",
+    "runtime-main.js.map": "/portafolio_full_reactJS-/static/js/runtime-main.fd54fe81.js.map",
+    "static/js/2.b8adb121.chunk.js": "/portafolio_full_reactJS-/static/js/2.b8adb121.chunk.js",
+    "static/js/2.b8adb121.chunk.js.map": "/portafolio_full_reactJS-/static/js/2.b8adb121.chunk.js.map",
+    "index.html": "/portafolio_full_reactJS-/index.html",
+    "precache-manifest.bb43ee93f2782b8bb6e6ca109b0ea4f8.js": "/portafolio_full_reactJS-/precache-manifest.bb43ee93f2782b8bb6e6ca109b0ea4f8.js",
+    "service-worker.js": "/portafolio_full_reactJS-/service-worker.js",
+    "static/css/main.6217b51f.chunk.css.map": "/portafolio_full_reactJS-/static/css/main.6217b51f.chunk.css.map",
+    "static/js/2.b8adb121.chunk.js.LICENSE.txt": "/portafolio_full_reactJS-/static/js/2.b8adb121.chunk.js.LICENSE.txt",
+    "static/media/Calculator.png": "/portafolio_full_reactJS-/static/media/Calculator.ac533139.png",
+    "static/media/DrumKit.png": "/portafolio_full_reactJS-/static/media/DrumKit.ef6ca9b9.png",
+    "static/media/Library.png": "/portafolio_full_reactJS-/static/media/Library.a829907b.png",
+    "static/media/Product landing page.png": "/portafolio_full_reactJS-/static/media/Product landing page.7d1cf2fb.png",
+    "static/media/Tic tac toe.png": "/portafolio_full_reactJS-/static/media/Tic tac toe.ff3b401d.png",
+    "static/media/Home.module.css": "/portafolio_full_reactJS-/static/media/background.39dc1ccf.jpeg",
+    "static/media/fotoDePerfil.jpg": "/portafolio_full_reactJS-/static/media/fotoDePerfil.81a75869.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/runtime-main.fd54fe81.js",
     "static/js/2.b8adb121.chunk.js",
-    "static/css/main.ba634f85.chunk.css",
-    "static/js/main.ee41eebb.chunk.js"
+    "static/css/main.6217b51f.chunk.css",
+    "static/js/main.cda4cf28.chunk.js"
   ]
 }
