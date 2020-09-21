@@ -1,42 +1,52 @@
 import React, { Component } from 'react';
-import axios from '../../../axios';
+//import axios from '../../../axios';
 import SocialMediaLink from '../SocialMediaLinks/SocialMediaLink/SocialMediaLink';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classes from './SocialMediaLinks.module.css';
 
 class SocialMediaLinks extends Component {
     state = {
-        socialMediaLinks: null,
-        fontAwesomeCodes: null,
+        socialMediaLinks: {
+            "Github": "https://github.com/alfaruga",
+            "Linkedin": "https://mx.linkedin.com/",
+            "Twitter": "https://twitter.com/alexis1525473"
+        },
+        fontAwesomeCodes: {
+            "Github": "fab,github",
+            "Linkedin": "fab,linkedin",
+            "Twitter": "fab,twitter"
+        },
         error: false,
     }
-
-    componentDidMount() {
-        axios.get('Social-media-links.json')
-            .then(response => {
-                this.setState({
-                    socialMediaLinks: response.data
+    /*
+        Esto es overkill, pero lo dejo como referencia para referencia futura, 
+        es una solicitud al servidor
+        componentDidMount() {
+            axios.get('Social-media-links.json')
+                .then(response => {
+                    this.setState({
+                        socialMediaLinks: response.data
+                    })
                 })
-            })
-            .catch(error => {
-                this.setState({ error: true })
-            })
-        axios.get('Font-awesome-codes.json')
-            .then(response => {
-                this.setState({
-                    fontAwesomeCodes: response.data
+                .catch(error => {
+                    this.setState({ error: true })
                 })
-            })
-            .catch(error => {
-                this.setState({ error: true })
-            })
-    }
+            axios.get('Font-awesome-codes.json')
+                .then(response => {
+                    this.setState({
+                        fontAwesomeCodes: response.data
+                    })
+                })
+                .catch(error => {
+                    this.setState({ error: true })
+                })
+        }
+        */
     render() {
         let socialLinks = null;
         if (this.state.socialMediaLinks && this.state.fontAwesomeCodes) {
             socialLinks =
                 Object.keys(this.state.socialMediaLinks).map((element, index) => {
-                    console.log(this.state.fontAwesomeCodes[element]);
                     return (<SocialMediaLink
                         key={'sm' + index}
                         link={this.state.socialMediaLinks[element]}>

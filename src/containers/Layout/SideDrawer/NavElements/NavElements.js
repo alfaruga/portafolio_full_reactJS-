@@ -6,6 +6,7 @@ class NavElements extends Component {
     state = {
         pages: ['Home', 'About_me', 'My_work', 'Contact_me']
     }
+    
 
     render() {
         let navLinks = this.state.pages.map((page, index) => {

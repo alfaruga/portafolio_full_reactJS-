@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Header from '../Layout/Header/Header';
 import Aux from '../../hoc/Aux'
 const contact = (props) => (
