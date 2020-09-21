@@ -8,7 +8,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 function App() {
   library.add(fab, fas)
   return (
-    <BrowserRouter basename="portafolio_full_reactJS-">
+    <BrowserRouter basename="portafolio_full_reactJS-/">
       <Layout />
     </BrowserRouter>
   );
