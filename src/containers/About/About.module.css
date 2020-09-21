@@ -4,14 +4,38 @@
   display: flex;
   align-items: center;
 }
+.IconContainer {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: #b1b4ba;
+  justify-content: center;
+  align-items: center;
+}
 .Image {
   display: inline-block;
   height: 100%;
 }
 .Info {
   background-color: #141414a6;
+  font-size: 0.9em;
   resize: none;
   width: 40%;
   margin: 5px;
   border-radius: 15px;
+  margin: auto;
+}
+.Icon {
+  color: white;
+  font-size: 1.5em;
+}
+@media (max-width: 670px) {
+  .Image {
+    display: none;
+  }
+  .Info {
+    width: 70%;
+    height: 90%;
+    overflow: auto;
+  }
 }
