@@ -12,16 +12,18 @@ class Main extends Component {
     state = {
         a: 1
     }
+
     render() {
+        console.log(this.props)
         return (
             <Aux>
                 <NavElements />
                 <div className={classes.Main}>
                     <Switch>
-                        <Route path='/Home' component={Home} />
-                        <Route path='/My_Work' component={Work} />
-                        <Route path='/About_me' component={About} />
-                        <Route path='/Contact_me' component={Contact} />
+                        <Route path='/Home' exact component={Home} />
+                        <Route path='/My_Work' exact component={Work} />
+                        <Route path='/About_me' exact component={About} />
+                        <Route path='/Contact_me' exact component={Contact} />
                         <Redirect from='/' exact to='/Home' />
                         <Route render={() => <h1>Not found</h1>} />
                     </Switch>
