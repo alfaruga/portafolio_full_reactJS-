@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portafolio_full_reactJS-/static/css/main.6217b51f.chunk.css",
-    "main.js": "/portafolio_full_reactJS-/static/js/main.cda4cf28.chunk.js",
-    "main.js.map": "/portafolio_full_reactJS-/static/js/main.cda4cf28.chunk.js.map",
+    "main.js": "/portafolio_full_reactJS-/static/js/main.7ea94002.chunk.js",
+    "main.js.map": "/portafolio_full_reactJS-/static/js/main.7ea94002.chunk.js.map",
     "runtime-main.js": "/portafolio_full_reactJS-/static/js/runtime-main.fd54fe81.js",
     "runtime-main.js.map": "/portafolio_full_reactJS-/static/js/runtime-main.fd54fe81.js.map",
-    "static/js/2.b8adb121.chunk.js": "/portafolio_full_reactJS-/static/js/2.b8adb121.chunk.js",
-    "static/js/2.b8adb121.chunk.js.map": "/portafolio_full_reactJS-/static/js/2.b8adb121.chunk.js.map",
+    "static/js/2.69cc1732.chunk.js": "/portafolio_full_reactJS-/static/js/2.69cc1732.chunk.js",
+    "static/js/2.69cc1732.chunk.js.map": "/portafolio_full_reactJS-/static/js/2.69cc1732.chunk.js.map",
     "index.html": "/portafolio_full_reactJS-/index.html",
-    "precache-manifest.bb43ee93f2782b8bb6e6ca109b0ea4f8.js": "/portafolio_full_reactJS-/precache-manifest.bb43ee93f2782b8bb6e6ca109b0ea4f8.js",
+    "precache-manifest.b271647495c31fd117d45703ee55bcd0.js": "/portafolio_full_reactJS-/precache-manifest.b271647495c31fd117d45703ee55bcd0.js",
     "service-worker.js": "/portafolio_full_reactJS-/service-worker.js",
     "static/css/main.6217b51f.chunk.css.map": "/portafolio_full_reactJS-/static/css/main.6217b51f.chunk.css.map",
-    "static/js/2.b8adb121.chunk.js.LICENSE.txt": "/portafolio_full_reactJS-/static/js/2.b8adb121.chunk.js.LICENSE.txt",
+    "static/js/2.69cc1732.chunk.js.LICENSE.txt": "/portafolio_full_reactJS-/static/js/2.69cc1732.chunk.js.LICENSE.txt",
     "static/media/Calculator.png": "/portafolio_full_reactJS-/static/media/Calculator.ac533139.png",
     "static/media/DrumKit.png": "/portafolio_full_reactJS-/static/media/DrumKit.ef6ca9b9.png",
     "static/media/Library.png": "/portafolio_full_reactJS-/static/media/Library.a829907b.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fd54fe81.js",
-    "static/js/2.b8adb121.chunk.js",
+    "static/js/2.69cc1732.chunk.js",
     "static/css/main.6217b51f.chunk.css",
-    "static/js/main.cda4cf28.chunk.js"
+    "static/js/main.7ea94002.chunk.js"
   ]
 }
